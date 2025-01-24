@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.sec1{
+    height: 100vh;
+    background-image: url("./Images/app-link-background.svg");
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px ;
+}
+
+.loggo img{
+    height: 60px;
+    width: 150px;
+
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;/* directly it will not work first we have to give display:flex */
+    /* background-color: beige; */
+    justify-content: center;
+    height: 80%;
+    
+}
+
+.header-content h1{
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.header-content>a{ /* select direct child(a tag) of a parent(.hearder-content)*/
+    background-color: #ff5672;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.header-content p{
+    color: white;
+    padding: 20px 0px; 
+    font-weight: bold;
+    font-size: medium;
+    font-family: cursive;
+}
+
+.playstore{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    transition: all 10s;
+    cursor: pointer;
+}
+.playstore img:hover{
+    transform: scale(1.1);
+    
+}
+
+.appstore-img{
+    height: 55px;
+
+}
+.header-content2 h1{
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    padding-left: 45%;
+    padding-top: 40px;
+    /* text-decoration: none; */
+
+
+}
+
+.page2 img{
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    /* padding-left: 0px; */
+    height: 250px;
+    width: 285px;
+    padding-top: 50px;
+    /* display: flex; */
+    padding-bottom: 10px;
+    
+    
+}
+
+.header-content3{
+    background-size: cover;
+    height: 1000px;
+    background-image: url(./Images/banner-1.webp);
+    text-align: center;
+    display: grid;
+    color: white;
+    /* padding-left: 100px; */
+    padding-top: 50vh;
+}
+
+.header-content3 h1{
+    font-weight: bold;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+.header-content4{
+    padding-top: 10px;
+    background-image: url(./Images/banner-2.webp);
+    background-size: cover;
+    height: 1000px;
+    text-align: center;
+    display: grid;
+    padding-top: 55vh;
+    color: white;
+    font-size: larger;
+    
+
+}
+
+.header-content4 h1{
+    font-family: cursive;
+}
